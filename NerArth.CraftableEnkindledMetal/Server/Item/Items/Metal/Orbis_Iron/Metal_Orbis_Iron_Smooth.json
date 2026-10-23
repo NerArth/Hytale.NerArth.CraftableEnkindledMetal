@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Metal_Orbis_Iron_Smooth.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Metal_Orbis_Iron_Smooth.png",
+  "Categories": [
+    "Blocks.Metal"
+  ],
+  "Set": "Metal_Orbis_Iron",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "Textures": [
+      {
+        "All": "BlockTextures/Metal_Orbis_Iron_Smooth.png",
+        "Weight": 1
+      },
+      {
+        "All": "BlockTextures/Metal_Orbis_Iron_Smooth02.png"
+      },
+      {
+        "All": "BlockTextures/Metal_Orbis_Iron_Smooth03.png"
+      }
+    ],
+    "BlockSoundSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "ParticleColor": "#71756d"
+  },
+  "Tags": {
+    "Type": [
+      "Metal"
+    ],
+    "Family": [
+      "Iron"
+    ]
+  },
+  "Parent": "Rock_Gold_Brick_Smooth",
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "StructuralCrafting",
+        "Id": "Builders",
+        "Categories": [
+          "Wall"
+        ]
+      }
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Orbis_Iron"
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Quality": "Common",
+  "MaxStack": 50
+}

@@ -1,0 +1,21 @@
+{
+  "Group": "NerArth",
+  "Name": "CraftableEnkindledMetal",
+  "Version": "1.0.4",
+  "Description": "Existing assets for Enkindled Metal (Copper & Iron) blocks are craftable using the Builder's Workbench. Technical detail: This pack uses overrides for each of the metal_orbis ID set blocks and adds crafting data matching typical vanilla crafting sets.",
+  "Authors": [
+    {
+      "Name": "NerArth",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": ">=0.7.2 <0.8.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
